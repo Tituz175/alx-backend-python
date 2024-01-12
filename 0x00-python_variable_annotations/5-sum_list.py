@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
-"""0. Basic annotations - add"""
+"""5. Complex types - list of floats"""
 
 
-def add(a: float, b: float) -> float:
+def sum_list(input_list: list[float]) -> float:
     """
-    This function takes a float a and a float b as arguments
+    This function takes a list input_list of floats as argument
     and returns their sum as a float.
     """
-    return a+b
+    sum: float = 0.0
+    for num in input_list:
+        sum += num
+    return sum
