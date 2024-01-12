@@ -1,11 +1,8 @@
 #!/usr/bin/env python3
-"""7. Complex types - string and int/float to tuple"""
-from typing import Union, Tuple
+""" Module documentation """
+from typing import Tuple, Union
 
 
-def to_kv(k: str,  v: Union[float, int]) -> Tuple[str, float]:
-    """
-    This function takes a list mxd_lst of floats as argument
-    and returns their sum as a float.
-    """
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
+    """Func doc"""
     return (k, v**2)
