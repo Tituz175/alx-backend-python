@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """9. Let's duck type an iterable object"""
-from typing import Any, List, Tuple, Sequence
+from typing import Any, List, Tuple, Sequence, Iterable
 
 
-def element_length(lst: Any) -> List[Tuple[Sequence, int]]:
+def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
     """
     This function takes a float multiplier as argument
     and returns a function that multiplies a float by multiplier.
