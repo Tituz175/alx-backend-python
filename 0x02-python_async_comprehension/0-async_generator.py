@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Module Documentation"""
 import random
-import asyncio
 
 
 async def async_generator() -> float:
