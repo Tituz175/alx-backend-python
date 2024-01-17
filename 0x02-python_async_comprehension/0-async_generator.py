@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Module Documentation"""
-import random
 import asyncio
+import random
 from typing import Generator
 
 
