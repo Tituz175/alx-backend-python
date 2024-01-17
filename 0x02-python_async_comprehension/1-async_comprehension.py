@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Module Documentation"""
-import random
+""" Module documentation """
 import asyncio
+import random
 from typing import Generator
 
 
 async def async_generator() -> Generator[float, None, None]:
-    """Fuction Documentation"""
+    """Func doc"""
     for _ in range(10):
-        await asyncio.sleep(1.0)
+        await asyncio.sleep(1)
         yield random.uniform(0, 10)
